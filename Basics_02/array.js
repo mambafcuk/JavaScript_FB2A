@@ -21,3 +21,23 @@ const splice_array = myArr.splice(1,3)
 console.log(sliced_array)
 console.log(myArr)
 
+
+const myArr1 =  [1,2,3,4,5]
+const myArr2 =  [6,7,8,9,10]
+
+myArr1.push(myArr2)
+
+console.log(myArr1)
+
+
+const latest_Arr = myArr1.concat(myArr2)
+console.log(latest_Arr);
+
+
+console.log(latest_Arr.flat())
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+console.log(Array.of(score1,score2,score3));
+
